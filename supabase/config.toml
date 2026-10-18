@@ -1,0 +1,14 @@
+[functions.shipping-quote]
+verify_jwt = false
+
+[functions.checkout-create]
+verify_jwt = false
+
+[functions.mercadopago-webhook]
+verify_jwt = false
+
+[functions.melhor-envio-oauth-start]
+verify_jwt = false
+
+[functions.melhor-envio-oauth-callback]
+verify_jwt = false

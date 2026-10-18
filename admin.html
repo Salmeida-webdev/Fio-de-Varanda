@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Painel administrativo · Fio de Varanda</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/admin.css?v=20">
+</head>
+<body class="admin-body">
+  <div id="login-screen" class="login-screen">
+    <form id="login-form" class="login-card">
+      <a class="brand" href="/">
+        <span class="brand-mark">✳</span>
+        <span>fio de varanda<small>acesso administrativo</small></span>
+      </a>
+      <p class="eyebrow">ÁREA RESTRITA</p>
+      <h1>Entrar no painel</h1>
+      <p>Use o e-mail e a senha cadastrados para o administrador desta loja.</p>
+      <label for="admin-email">E-mail</label>
+      <input id="admin-email" name="email" type="email" autocomplete="username" inputmode="email" required>
+      <label for="admin-password">Senha</label>
+      <input id="admin-password" name="password" type="password" autocomplete="current-password" required>
+      <p id="auth-message" class="auth-message" role="status" aria-live="polite" hidden></p>
+      <button id="login-submit" class="button button-dark full-width" type="submit">Acessar painel</button>
+      <small>Autenticação protegida pelo Supabase. Apenas administradores autorizados entram.</small>
+      <a href="/">← Voltar à loja</a>
+    </form>
+  </div>
+
+  <div id="admin-app" class="admin-shell" hidden>
+    <aside class="admin-sidebar">
+      <a class="brand" href="/">
+        <span class="brand-mark">✳</span>
+        <span>fio de varanda<small>painel administrativo</small></span>
+      </a>
+      <nav aria-label="Navegação administrativa">
+        <button class="active" data-view="overview" aria-current="page">Visão geral</button>
+        <button data-view="products">Produtos <span>50</span></button>
+        <button data-view="orders">Pedidos</button>
+        <button data-view="inventory">Estoque</button>
+        <button data-view="settings">Configurações</button>
+      </nav>
+      <button id="logout" class="logout" type="button">Sair do painel ↗</button>
+    </aside>
+    <main class="admin-main">
+      <header class="admin-top">
+        <div>
+          <p class="eyebrow">PAINEL ADMINISTRATIVO</p>
+          <h1 id="view-title">Visão geral</h1>
+        </div>
+        <span class="demo-pill">Dados demonstrativos</span>
+      </header>
+      <section id="admin-content"></section>
+    </main>
+  </div>
+  <script src="/src/store-config.js?v=20"></script>
+  <script type="module" src="/admin.js?v=20"></script>
+</body>
+</html>

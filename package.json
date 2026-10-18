@@ -1,0 +1,6 @@
+{
+  "name": "fio-de-varanda-front-v21",
+  "private": true,
+  "type": "module",
+  "description": "Loja responsiva e checkout server-side preparado para produção"
+}

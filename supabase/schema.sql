@@ -1,0 +1,6 @@
+-- Compatibilidade com o nome usado no briefing original.
+-- Migrações versionadas do projeto atual, aplicar em ordem:
+-- supabase/migrations/202610180001_backend_foundation.sql
+-- supabase/migrations/202610180002_foreign_key_indexes.sql
+-- supabase/migrations/20261018163208_product_image_storage_and_categories.sql
+-- Leia também supabase/README.md antes de aplicar em qualquer projeto.

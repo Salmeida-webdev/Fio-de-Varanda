@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+.netlify
+node_modules/
+dist/
+*.zip
+.DS_Store
