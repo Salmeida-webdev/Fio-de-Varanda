@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,nofollow">
   <title>Painel administrativo · Fio de Varanda</title>
   <link rel="stylesheet" href="/styles.css">
-  <link rel="stylesheet" href="/admin.css?v=20">
+  <link rel="stylesheet" href="/admin.css?v=37">
 </head>
 <body class="admin-body">
   <div id="login-screen" class="login-screen">
@@ -39,6 +39,7 @@
         <button class="active" data-view="overview" aria-current="page">Visão geral</button>
         <button data-view="products">Produtos <span>50</span></button>
         <button data-view="orders">Pedidos</button>
+        <button data-view="shipping">Expedição</button>
         <button data-view="inventory">Estoque</button>
         <button data-view="settings">Configurações</button>
       </nav>
@@ -50,12 +51,13 @@
           <p class="eyebrow">PAINEL ADMINISTRATIVO</p>
           <h1 id="view-title">Visão geral</h1>
         </div>
-        <span class="demo-pill">Dados demonstrativos</span>
+        <span class="demo-pill">Catálogo demonstrativo</span>
       </header>
       <section id="admin-content"></section>
     </main>
   </div>
-  <script src="/src/store-config.js?v=20"></script>
-  <script type="module" src="/admin.js?v=20"></script>
+  <dialog id="fulfillment-dialog" class="admin-dialog" aria-labelledby="fulfillment-dialog-title"></dialog>
+  <script src="/src/store-config.js?v=37"></script>
+  <script type="module" src="/admin.js?v=37"></script>
 </body>
 </html>

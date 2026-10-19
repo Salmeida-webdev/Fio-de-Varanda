@@ -1,6 +1,6 @@
 {
-  "name": "fio-de-varanda-front-v21",
+  "name": "fio-de-varanda-front-v37",
   "private": true,
   "type": "module",
-  "description": "Loja responsiva e checkout server-side preparado para produção"
+  "description": "Painel de pedidos com detalhes de produtos e gestão de expedição"
 }

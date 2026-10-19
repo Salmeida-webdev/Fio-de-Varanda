@@ -3,4 +3,10 @@
 -- supabase/migrations/202610180001_backend_foundation.sql
 -- supabase/migrations/202610180002_foreign_key_indexes.sql
 -- supabase/migrations/20261018163208_product_image_storage_and_categories.sql
+-- supabase/migrations/20261018190000_checkout_shipping_payments.sql
+-- supabase/migrations/20261018190500_melhor_envio_oauth.sql
+-- supabase/migrations/20261018192500_checkout_sandbox_isolated.sql
+-- supabase/migrations/20261018193000_sandbox_table_hardening.sql
+-- supabase/migrations/20261018194500_admin_read_sandbox_orders.sql
+-- supabase/migrations/20261018194600_secure_admin_sandbox_order_reads.sql
 -- Leia também supabase/README.md antes de aplicar em qualquer projeto.

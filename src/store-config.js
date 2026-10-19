@@ -3,5 +3,6 @@
 // Nunca coloque aqui SUPABASE_SERVICE_ROLE_KEY, tokens de pagamento ou frete.
 window.FIO_STORE_CONFIG = Object.freeze({
   supabaseUrl: 'https://msofalaizuztqtoukxgf.supabase.co',
-  supabasePublishableKey: 'sb_publishable_P0wzStlpFXhZ1Po6BDn2ng_NY7R6Wzh'
+  supabasePublishableKey: 'sb_publishable_P0wzStlpFXhZ1Po6BDn2ng_NY7R6Wzh',
+  sandboxCheckoutEndpoint: '/functions/v1/checkout-create-sandbox'
 });
